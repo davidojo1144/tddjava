@@ -19,7 +19,7 @@ public class Bike {
     public int gearing1(int gear1){
         int acceleration1 = 15;
         if(acceleration1 <= this.gear1) {
-            return acceleration1 = acceleration1 + gear1;
+            return acceleration1 + gear1;
         }
         else return acceleration1;
     }
